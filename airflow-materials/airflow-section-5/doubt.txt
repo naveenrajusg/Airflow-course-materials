@@ -1,0 +1,76 @@
+https://www.youtube.com/watch?v=GDOw8ByzMyY&t=12s
+https://www.youtube.com/watch?v=AjBADrVQJv0
+
+
+
+kind create cluster --name airflow-cluster --config kind-cluster.yaml (to delete kind delete cluster --name airflow-cluster)
+
+kubectl cluster-info --context kind-airflow-cluster
+
+kubectl get nodes
+
+helm repo add apache-airflow https://airflow.apache.org (if already exists helm repo remove apache-airflow. Then create new)
+
+helm repo update
+
+kubectl create namespace airflow
+
+kubectl get namespaces
+
+helm install airflow apache-airflow/airflow --namespace airflow --debug
+
+
+kubectl port-forward svc/airflow-webserver 8080:8080 -n airflow
+
+
+in new cmd
+
+helm show values apache-airflow/airflow >values.yml
+
+helm upgrade --install airflow apache-airflow/airflow -n airflow -f values.yml
+
+kubectl get pods -n airflow
+
+kubectl port-forward svc/airflow-webserver 8080:8080 -n airflow
+
+docker build -t airflow-image:1.0.0 .
+
+
+kind delete cluster --name=airflow-cluster
+
+create-cluster.sh 
+
+docker image ls
+
+docker tag airflow-image:1.0.0 localhost:5000/airflow-image:1.0.0
+
+docker image ls
+
+
+docker push localhost:5000/airflow-image:1.0.0
+
+
+docker ps
+
+helm install -f values.yml --kube-context kind-airflow-cluster airflow airflow/airflow
+
+
+kubectl port-forward svc/airflow-webserver 8080:8080 -context kind-airflow-cluster
+
+
+
+
+
+
+
+
+
+
+helm show values airflow/airflow > values.yml
+
+helm install -f values.yml --kube-context kind-airflow-cluster airflow/airflow (this works->  helm install -f values.yml --kube-context kind-airflow-cluster --generate-name airflow/airflow )
+
+
+docker ps (registry name will be shown)
+docker stop (registry name)cd48f0b2d105 cd48f0b2d105 
+

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f97df13-7464-4052-934d-5c42a2ea5c60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mnt/airflow/dags/functions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnt/airflow/dags/functions/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-2/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-2/docs/cli_commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-2/docs/cli_commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-2/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-2/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-2/requirements-python3.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/dag_solutions/forex_data_pipeline_v_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/docker/airflow/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/docker/airflow/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/docker/airflow/requirements-python3.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/docker/airflow/start-airflow.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/docker/airflow/start-airflow.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/docker/hadoop/hadoop-base/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/docker/hadoop/hadoop-base/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/docker/hadoop/hadoop-base/conf/mapred-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/docker/hadoop/hadoop-base/conf/mapred-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/docker/hue/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/docker/hue/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/mnt/airflow/airflow.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/mnt/airflow/airflow.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/mnt/airflow/dags/files/forex_currencies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/mnt/airflow/dags/files/forex_currencies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/mnt/airflow/dags/scripts/forex_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/mnt/airflow/dags/scripts/forex_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/reset.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/reset.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/restart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/restart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-3/stop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-3/stop.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/airflow/requirements-python3.7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/airflow/requirements-python3.7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/airflow/script/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/airflow/script/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnt/airflow/airflow.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/mnt/airflow/airflow.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnt/airflow/dags/add_dagbags.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnt/airflow/dags/add_dagbags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnt/airflow/dags/alert_dag.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnt/airflow/dags/alert_dag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnt/airflow/dags/backfill.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnt/airflow/dags/backfill.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnt/airflow/dags/depends_dag.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnt/airflow/dags/depends_dag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnt/airflow/dags/packaged_dag.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnt/airflow/dags/packaged_dag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnt/airflow/dags/start_and_schedule_dag.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnt/airflow/dags/start_and_schedule_dag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnt/airflow/dags/tz_dag.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnt/airflow/dags/tz_dag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnt/airflow/test_dags/test_dag_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnt/airflow/test_dags/test_dag_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnt/airflow/test_dags/test_tst_dag_definition.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnt/airflow/test_dags/test_tst_dag_definition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset.sh" beforeDir="false" afterPath="$PROJECT_DIR$/reset.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/restart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/stop.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-7/docker/script/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-7/docker/script/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-8/docker/airflow/script/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-8/docker/airflow/script/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-8/restart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-8/restart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-8/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-8/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-8/stop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-8/stop.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-9/docker/airflow/script/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-9/docker/airflow/script/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-9/restart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-9/restart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-9/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-9/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../airflow-section-9/stop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../airflow-section-9/stop.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RNMtRrY86zsp66zjMeGg1rmRmH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/airflow course/airflow-materials/airflow-materials/airflow-section-5"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f97df13-7464-4052-934d-5c42a2ea5c60" name="Changes" comment="" />
+      <created>1687086299742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687086299742</updated>
+    </task>
+    <servers />
+  </component>
+</project>
